@@ -1,0 +1,61 @@
+h1{
+    color: rgb(15, 85, 90);
+}
+h2{
+    color: blue;
+}
+#Span1{
+    color: #f50808;
+}
+#Span2{
+    color: #b89603;
+}
+#Span3{
+    color: #f50808;
+    text-decoration: underline;
+}
+#Span4{
+    color: blue;
+}
+#Span5{
+    color:rgb(219, 116, 219);
+}
+.TituloColumna{
+    color: rgb(226, 197, 66);
+    border: 1px solid black;
+}
+.tituloRojo{
+    color: #f50808;
+    font-weight: bold;
+}
+td{
+    color: rgb(39, 139, 77);
+border: 1px solid black;
+}
+#Span6{
+    font-style: italic;
+}
+
+.ParrafoVerde{
+    color: rgb(170, 230, 120);
+}
+
+#Span7{
+    color: pink;
+}
+
+#Span8{
+    color: darkgreen;
+    text-decoration: underline;
+}
+table{
+    border-collapse: collapse;
+   
+}
+
+#Span10{
+    color: rgb(226, 197, 66);
+}
+th{
+    border: 1px solid black;
+}

@@ -1,0 +1,43 @@
+#divGris {
+    background-color: rgb(226, 226, 226);
+    height: 450px;
+    width: 400px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+img {
+    width: 350px;
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#divPadre {
+    display: flex;
+}
+
+#boton {
+    width: 100%;
+    margin-top: 40px;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding-bottom: 5px;
+}
+.col-sm-6{
+    border: 0.5px solid rgba(0, 0, 0, 0.39);
+}

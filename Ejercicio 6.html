@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+
+<body>
+
+    <!-- Por último, vamos a crear un formulario para registrar un usuario que se vea de la
+siguiente manera:
+
+Es importante que en las casillas de sexo del usuario se puede clickear la/s palabra/s
+hombre, mujer o prefiero no decir para seleccionar la opción. Recordemos que eso lo
+podemos hacer con la etiqueta label.-->
+    <h1> <strong> Registrar un usuario </strong> </h1>
+    <form>
+        <label for="nombreUsuario"> Nombre del usuario </label>
+        <br>
+        <input type="text" name="nombreUsuario" placeholder="Tu nombre">
+        <br>
+        <label for="contraseñaUsuario"> Contraseña del usuario </label>
+        <br>
+        <input type="password" name="contraseñaUsuario" placeholder="Tu contraña">
+        <br>
+        <label for="edadUsuario"> Edad del usuario </label>
+        <br>
+        <input type="number" name="edadUsuario" placeholder="Tu Edad">
+        <br>
+        <label for="fechaNacimiento">Fecha de nacimiento del usuario</label>
+        <br>
+        <input type="date" name="fachaNacimiento">
+        <br>
+        <label for="sexoUsuario">Sexo del usuario </label>
+        <br>
+        <input type="radio" id="sexoMasculino" name="sexoUsuario" value="1">
+        <label for="sexoMasculino">Hombre </label>
+        <br>
+        <input type="radio" id="sexoFemenino" name="sexoUsuario" value="2"> 
+        <label for="sexoFemenino">Mujer </label>
+        <br>
+        <input type="radio" id="sexoOtro" name="sexoUsuario" value="3"> 
+        <label for="sexoOtro">De river </label>
+        <br>
+        <label for="paisNacimiento">Pais de nacimiento del usuario</label>
+        <br>
+        <select name="Pais">
+            <option> Argentina </option>
+            <option> Brasil </option>
+            <option> Ecuador </option>
+            <option> Chile </option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
+    </form>
+
+</body>
+
+</html>
